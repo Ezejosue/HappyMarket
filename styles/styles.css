@@ -177,19 +177,9 @@ main {
   .card-phone .card-title {
     font-size: 1.2rem;
   }
-}
-
-@media screen and (max-width: 385px) {
   .card-model .card-title {
-    font-size: 1.5rem;
-  }
-
-  .shopping {
-    right: 50px;
-  }
-
-  .social-media img {
-    width: 2rem;
+    font-size: 1.2rem;
+    margin-top: 25px;
   }
 }
 
@@ -207,11 +197,26 @@ main {
   .card-img-top {
     width: 240px;
   }
+
+}
+
+@media screen and (max-width: 385px) {
+  .card-model .card-title {
+    font-size: 1.5rem;
+  }
+
+  .shopping {
+    right: 50px;
+  }
+
+  .social-media img {
+    width: 2rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .card-model .card-title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-top: 25px;
   }
 }
