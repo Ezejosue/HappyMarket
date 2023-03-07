@@ -9,3 +9,9 @@ main form{
     border-radius: 10%;
 }
 
+@media screen and (min-width: 1000px) {
+ 
+    main form{
+        width: 50%;
+    }
+}
