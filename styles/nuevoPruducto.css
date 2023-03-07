@@ -1,0 +1,115 @@
+                                      /* productos nuevos */
+
+
+.listProducts{
+     /* aqui esta el tamaño de la caja de los productos y un  intento de centrarlo */
+  width: 1490px;
+  margin: 0 auto;
+  padding: 2px 147px 2px 147px;
+}
+
+.product{
+    /* cada una de los productos tiene este ancho y alto el inline-block es paraa que se coloque un a la par del otro despues un borde tipo gris un poco trasparente luego fondo blanco redondeo de los bordes  */
+  width: 220px;
+  height: 250px;
+  display: inline-flex;
+  border: 1px solid rgba(137, 134, 134, 0.45);
+  background-color:  white;
+  border-radius: 10px;
+  margin: 5px 5px 5px 5px;
+  padding: 5px;
+  flex-direction: column;
+}
+
+.etiquetaNuevo{
+    /* este es para la etiqueta que dice nuevo en cada producto el float permite que pueda esta en un punto dentro del recuador del producto y en cojunto con position que da encima de la imagen */
+  display: inline-block;
+  position: absolute;
+  padding: 0 2px 0 2px; 
+  border-radius: 3px;
+  margin-top: 6px;
+  background-color: #5C77FC;
+  color: white;
+  font-weight: bolder;
+}
+
+#itemProducto{
+    /* estos son los parametros de la imagen le puse el max-content para que no se distorcione la imagen */
+  width: max-content;
+  height: 150px;
+  display: block;
+  margin: 5px auto 10px;
+}
+
+#nombreProducto{
+    /* este es del nombre del procuto solo esta centrado y tiene un margen */
+  text-align: center;
+  margin-top: 6px;
+}
+
+#price{
+    /* este es del precio del procuto solo esta centrado, tiene un margen y un color azul*/
+  text-align: center;
+  margin-top: 10px;
+  color: #5C77FC;
+}
+
+                       /* general para modificar el tamaño de las pantallas */
+
+
+/* en todo modifico el ancho de div que reune a todos las cajas y los centro con el margen tambien arreglo el padding */
+@media screen and (max-width: 1400px) {
+  .listProducts{
+    margin: 0 auto;
+    padding: 2px 100px 2px 100px;
+    width: 1200px;
+   }
+} 
+
+@media screen and (max-width: 1200px){
+ .listProducts{
+  margin:0 auto;
+  padding: 2px 30px 2px 30px; 
+  width: 1000px;
+ }
+}
+
+@media screen and (max-width: 990px){
+  .listProducts{
+    width: 760px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px){
+ .listProducts{
+  width: 530px;
+  margin:0 auto;
+  padding: 2px auto; 
+ }
+}
+
+@media screen and (max-width: 600px){
+  .listProducts{
+   width: 280px;
+   margin: 0 auto;
+   padding: 2px 30px;
+  }
+ }
+
+@media screen and (max-width: 385px){
+ .listProducts{
+  margin: 0 auto;
+  padding: 2px 5px 2px 5px;
+  width: 230px;
+ }
+}
+
+
+@media screen and (max-width: 320px){
+  .listProducts{
+    margin: 0 auto;
+    padding: 2px 5px 2px 5px;
+    width: 230px;
+   }
+} 
