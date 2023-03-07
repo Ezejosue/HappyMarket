@@ -171,6 +171,12 @@ main {
   .card-img-top {
     width: 188px;
   }
+
+  .navbar ul {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -197,7 +203,6 @@ main {
   .card-img-top {
     width: 240px;
   }
-
 }
 
 @media screen and (max-width: 385px) {

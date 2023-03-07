@@ -1,0 +1,11 @@
+main{
+    align-items: center;
+    justify-content: center;
+}
+
+main form{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10%;
+}
+
